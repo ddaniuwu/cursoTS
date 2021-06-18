@@ -25,3 +25,23 @@ username = "Luis";
 var userInfo;
 userInfo = "\n    Userinfo :\n    username : " + username + "\n    firstName : " + (username + ' Hernandez') + "\n    phone : " + phoneNumber + "\n    isPro : " + isUserPro + "\n";
 console.log('userInfo', userInfo);
+//------------------------------------//
+var a = 'hola';
+a = 'Holas';
+var a1 = 10;
+var b = 20;
+var c = a + b;
+console.log(a);
+console.log(c);
+var num1 = 10;
+var num2 = 20;
+b = num1 + num2;
+console.log(b);
+function suma(num1, num2) {
+    return num1 + num2;
+}
+console.log(suma(2, 3));
+var dniNumber = 1234;
+var dniNumber2 = 123434;
+console.log(typeof (dniNumber));
+console.log(typeof (dniNumber2));
